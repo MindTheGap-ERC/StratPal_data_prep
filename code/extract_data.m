@@ -3,7 +3,7 @@
 x_pos = 5; % load data from the middle transect
 y_positions = [20, 40, 60, 80, 100, 120];
 
-%% load scenario B data
+%% load scenario A data
 load('scenarioA_glob_matlab_outputs.mat')
 
 %% get sea level curve and time vector
