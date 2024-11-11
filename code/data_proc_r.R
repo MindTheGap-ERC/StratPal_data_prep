@@ -1,6 +1,6 @@
 #### import data from matlab ####
 
-data = R.matlab::readMat("data/scenarionA_processed.mat")
+data = R.matlab::readMat("data/scenarioA_processed.mat")
 
 t = data$t[1,]
 sl = data$sl[1,]

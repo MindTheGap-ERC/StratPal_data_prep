@@ -27,7 +27,7 @@ for (i = 1:length(y_positions))
 end
 
 %%
-save("scenarionA_processed.mat", "t", "sl", "wd_mat", "h_mat", "y_positions", "facies_info")
+save("scenarioA_processed.mat", "t", "sl", "wd_mat", "h_mat", "y_positions", "facies_info")
 
 
 %% 
