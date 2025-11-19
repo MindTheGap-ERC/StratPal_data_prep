@@ -2,7 +2,7 @@
 
 julia_version = "1.12.1"
 manifest_format = "2.0"
-project_hash = "e502b53cf5dd65d7958488a878603608b60faf22"
+project_hash = "a2d4332089259d766e372c5ad041b91d4c1df1d0"
 
 [[deps.AbstractFFTs]]
 deps = ["LinearAlgebra"]
@@ -135,8 +135,10 @@ uuid = "83423d85-b0ee-5818-9007-b63ccbeb887a"
 version = "1.18.5+0"
 
 [[deps.CarboKitten]]
-deps = ["CSV", "CategoricalArrays", "DataFrames", "DelimitedFiles", "GeometryBasics", "HDF5", "LinearAlgebra", "Logging", "ModuleMixins", "Pkg", "ProgressLogging", "Random", "StaticArrays", "TOML", "TerminalLoggers", "Unitful"]
-git-tree-sha1 = "cb0131921789ba8fdcb200728bc2e3ea70e87e71"
+deps = ["CSV", "CategoricalArrays", "DataFrames", "DelimitedFiles", "GeometryBasics", "HDF5", "LinearAlgebra", "Logging", "LoggingExtras", "ModuleMixins", "Pkg", "ProgressLogging", "Random", "StaticArrays", "TOML", "TerminalLoggers", "Unitful"]
+git-tree-sha1 = "6153e1f1461c0d1eb0b478da917817d17c2ef1f0"
+repo-rev = "9d703d437de9084ec3dca79d2ec37e33de37646b"
+repo-url = "https://github.com/MindTheGap-ERC/CarboKitten.jl.git"
 uuid = "690c6d5c-626a-429f-a06b-981a1dae1c19"
 version = "0.5.3"
 weakdeps = ["Makie", "Statistics"]
@@ -884,6 +886,12 @@ version = "0.3.29"
 [[deps.Logging]]
 uuid = "56ddb016-857b-54e1-b83d-db4d58db5568"
 version = "1.11.0"
+
+[[deps.LoggingExtras]]
+deps = ["Dates", "Logging"]
+git-tree-sha1 = "f00544d95982ea270145636c181ceda21c4e2575"
+uuid = "e6f89c97-d47a-5376-807f-9c37f3926c36"
+version = "1.2.0"
 
 [[deps.MKL_jll]]
 deps = ["Artifacts", "IntelOpenMP_jll", "JLLWrappers", "LazyArtifacts", "Libdl", "oneTBB_jll"]
