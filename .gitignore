@@ -4,3 +4,12 @@
 .Ruserdata
 
 *.mat
+
+*.h5
+
+*.toml
+*.RData
+*.rda
+
+*.png
+*.csv
