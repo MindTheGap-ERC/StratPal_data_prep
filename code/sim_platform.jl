@@ -41,7 +41,7 @@ const FACIES = [
 
 const INPUT_INIT_RUN = ALCAP.Input(
     tag="$(TAG)_prerun",
-    box=Box{Coast}(grid_size=(161, 21), phys_scale=100.0u"m"),
+    box=CarboKitten.Box{Coast}(grid_size=(161, 21), phys_scale=100.0u"m"),
     time=TimeProperties(
         Δt=0.0001u"Myr",
         steps=10000),
@@ -74,7 +74,7 @@ init_matrix = get_init_topography(header, volume)
 
 const INPUT_MAIN_RUN = ALCAP.Input(
     tag="$TAG",
-    box=Box{Coast}(grid_size=(161, 21), phys_scale=100.0u"m"),
+    box=CarboKitten.Box{Coast}(grid_size=(161, 21), phys_scale=100.0u"m"),
     time=TimeProperties(
         Δt=0.0001u"Myr",
         steps=20000),
