@@ -3,3 +3,6 @@ CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
 CarboKitten = "690c6d5c-626a-429f-a06b-981a1dae1c19"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+
+[sources]
+CarboKitten = {rev = "9d703d437de9084ec3dca79d2ec37e33de37646b", url = "https://github.com/MindTheGap-ERC/CarboKitten.jl.git"}
